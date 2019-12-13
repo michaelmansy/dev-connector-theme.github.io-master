@@ -1,0 +1,7 @@
+input[type='submit'] {
+  font: inherit;
+}
+
+.social-input {
+  display: flex;
+}

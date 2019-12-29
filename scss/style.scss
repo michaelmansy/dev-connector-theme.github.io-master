@@ -473,3 +473,28 @@ img {
     background: $light-color;
   }
 }
+
+//================================
+//RESPONSIVENESS
+//================================
+
+@media (max-width: 700px) {
+  .hide-sm {
+    display: none;
+  }
+
+  //NAVBAR
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+    justify-content: center;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
